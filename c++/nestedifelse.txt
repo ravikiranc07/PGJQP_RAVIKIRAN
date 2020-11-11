@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+class Greater
+{
+    int n1,n2,n3;
+    public : void find_greater()
+    {
+        cout<<"enter three numbers";
+        cin>>n1>>n2>>n3;
+        if(n1>n2)
+        {
+            if(n1>n3)
+            {
+                cout<<"n1 is greater";
+            }
+        }
+        else
+        {
+            if(n2>n3)
+            {
+                cout<<"n2 is greater";
+
+            }
+            else
+            {
+                cout<<"n3 is greater";
+            }
+
+        }
+    }
+
+
+
+};
+int main()
+{
+    Greater g1;
+    g1.find_greater();
+}

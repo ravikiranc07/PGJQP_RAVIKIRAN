@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+class Interest
+{
+    float p,q,r;
+    public : void display()
+    {
+        cout<<"enter the values of p q r";
+        cin>>p;
+        cin>>q;
+        cin>>r;
+        cout<<"simple interest is:"<<(p*q*r)/100;
+    }
+};
+int main()
+{
+    Interest i1;
+    i1.display();
+}

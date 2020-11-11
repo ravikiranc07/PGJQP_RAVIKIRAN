@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class Div
+{
+    int n1,n2;
+    public : void division()
+    {
+        cout<<"enter the divisor:\n";
+        cin>>n1;
+        cout<<"enter the divident:\n";
+        cin>>n2;
+        cout<<"the quotient is:\t"<<n1/n2;
+        cout<<"\nthe remainder is:\t"<<n1%n2;
+
+
+    }
+};
+int main()
+{
+    Div d1;
+    d1.division();
+}

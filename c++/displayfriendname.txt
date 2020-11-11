@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+class Friendname
+{
+    public : void display()
+    {
+        cout<<"pranav\n";
+        cout<<"suhas";
+    }
+};
+int main()
+{
+    Friendname f1;
+    f1.display();
+}

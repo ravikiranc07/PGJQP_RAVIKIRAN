@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+class ArrayEx
+{
+    int arr[10];
+    public : void accept()
+    {
+        arr[0]=11;
+        arr[2]=22;
+        arr[4]=44;
+        cout<<arr[0]<<"\n"<<arr[2]<<"\n"<<arr[4];
+    }
+};
+int main()
+{
+    ArrayEx a1;
+    a1.accept();
+}

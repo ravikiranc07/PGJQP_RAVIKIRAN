@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+class Datatypes
+{
+    int n1;
+    float f1;
+    char c1;
+    public : void display()
+    {
+        cout<<"enter the integer number:\t";
+        cin>>n1;
+    }
+    void display1()
+    {
+        cout<<"enter the floating point number:\t";
+        cin>>f1;
+    }
+    void display2()
+    {
+        cout<<"enter the character:";
+        cin>>c1;
+    }
+
+
+
+
+
+};
+int main()
+{
+    Datatypes d1;
+    d1.display();
+    d1.display1();
+    d1.display2();
+}
+

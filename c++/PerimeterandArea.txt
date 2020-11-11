@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class Rectangle
+{
+    float n1,n2;
+    public : void multiplication()
+    {
+        cout<<"enter the first number:\n";
+        cin>>n1;
+        cout<<"enter the second number:\n";
+        cin>>n2;
+        cout<<"perimeter is:"<<2*(n1+n2);
+        cout<<"\narea is:"<<n1*n2;
+
+    }
+};
+int main()
+{
+    Rectangle r1;
+    r1.multiplication();
+}

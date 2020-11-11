@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class Calculator
+{
+    int n1,n2, res ;
+    public : void add() //add is a member function, they deplicit the behaviour of object
+    {
+        cout<<"enter first number";
+        cin>>n1;
+        cout<<"enter second number";
+        cin>>n2;
+        res=n1+n2;
+        cout<<"result is :"<<res;
+    }
+    void sub()
+    {
+        cout<<"enter the first number";
+        cin>>n1;
+        cout<<"enter the second number";
+        cin>>n2;
+        res=n1-n2;
+        cout<<"result is:"<<res;
+    }
+};
+int main()
+{
+    Calculator c1;
+    cout<<"program starts";
+    c1.add();
+    c1.sub();
+    cout<<"program ends";
+}

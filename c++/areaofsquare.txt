@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+class Square
+{
+    int side;
+    public : void display()
+    {
+        cout<<"enter the length";
+        cin>>side;
+        cout<<"area of square is:"<<side*side;
+    }
+};
+int main()
+{
+    Square s1;
+    s1.display();
+}

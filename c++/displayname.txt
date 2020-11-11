@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class Displayname
+{
+    public : void display()
+    {
+        cout<<"ravikiran";
+    }
+};
+int main()
+{
+    Displayname d1;
+    d1.display();
+}

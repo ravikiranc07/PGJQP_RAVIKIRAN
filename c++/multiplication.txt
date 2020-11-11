@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class Mul
+{
+    int n1,n2,n3;
+    public : void multiplication()
+    {
+        cout<<"enter the first number:\n";
+        cin>>n1;
+        cout<<"enter the second number:\n";
+        cin>>n2;
+        cout<<"enter the third number:\n";
+        cin>>n3;
+        cout<<"result is:"<<n1*n2*n3;
+
+    }
+};
+int main()
+{
+    Mul m1;
+    m1.multiplication();
+}

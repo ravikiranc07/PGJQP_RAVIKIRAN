@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class dowhileEx
+{
+    int choice,n1,n2,n3;
+    char ch;
+    public : void calculator()
+    {
+        do
+        {
+            cout<<"enter your choice: \n1.adition \n2.subtraction \n3.multiplication";
+            cin>>choice;
+            cout<<"enter two numbers";
+            cin>>n1>>n2;
+            switch(choice)
+            {
+                case 1: cout<<n1+n2;break;
+                case 2: cout<<n1-n2;break;
+                case 3: cout<<n1*n2;break;
+                default :cout<<"invalid choice";
+            }
+            cout<<"\n do you want to continue?";
+            cin>>ch;
+
+        }while(ch=='y' || ch=='y');
+    }
+};
+int main()
+{
+    dowhileEx obj1;
+    obj1.calculator();
+}
