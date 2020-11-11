@@ -1,0 +1,25 @@
+class Greater
+{
+    int n1;
+    public : void display()
+    {
+        cout<<"enter the number";
+        cin>>n1;
+        if(n1>10)
+        {
+            cout<<"the number is greater than 10";
+
+        }
+        else
+        {
+            cout<<"the number is not greater than 10";
+        }
+
+    }
+};
+int main()
+{
+    Greater g1;
+    g1.display();
+
+}

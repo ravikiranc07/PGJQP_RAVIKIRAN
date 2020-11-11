@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class Check
+{
+    int num;
+    public : void display()
+    {
+        cout<<"enter the number:";
+        cin>>num;
+        if(num%9==0)
+        {
+            cout<<"the number is divisible by 9";
+        }
+        else
+        {
+            cout<<"the number is not divisible by 9";
+        }
+    }
+};
+int main()
+{
+    Check c1;
+    c1.display();
+}
+

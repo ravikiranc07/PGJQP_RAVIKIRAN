@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+class Swap
+{
+    int num1,num2;
+    public : void display()
+    {
+        cout<<"enter the numbers";
+        cin>>num1>>num2;
+        num1=num1+num2;
+        num2 =num1-num2;
+        num1 =num1-num2;
+        cout<<"\nafter swapping:\n"<<num1<<"\n"<<num2;
+    }
+};
+int main()
+{
+    Swap s1;
+    s1.display();
+}

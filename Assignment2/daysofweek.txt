@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+class Check
+{
+    char letter;
+    int choice;
+    public : void display()
+    {
+        cout<<"enter a letter:";
+        cin>>letter;
+        cout<<"\nenter the choice:";
+        cin>>choice;
+        switch(choice)
+        {
+            case 1: if(letter=='a' || letter=='e' || letter=='i' || letter=='o' || letter=='u' )
+                    {
+                        cout<<"the enter letter is vowel";break;
+
+                    }
+            default: cout<<"the enter letter is constant";
+        }
+
+
+    }
+};
+int main()
+{
+    Check c1;
+    c1.display();
+}

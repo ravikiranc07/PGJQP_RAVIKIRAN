@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class EvenOdd
+{
+    int n1;
+    public : void display()
+    {
+        cout<<"enter the number";
+        cin>>n1;
+        if(n1%2==0)
+        {
+            cout<<"the number is even";
+        }
+        else
+        {
+            cout<<"the number is odd";
+        }
+
+    }
+};
+int main()
+{
+    EvenOdd obj1;
+    obj1.display();
+}

@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class Check
+{
+    int n1,n2,res1,res2;
+    public : void display()
+    {
+        cout<<"enter the first number:\n";
+        cin>>n1;
+        cout<<"enter the second number:\n";
+        cin>>n2;
+        res1=n1+n2;
+        res2=n1*n2;
+        cout<<"result is:"<<res1;
+        cout<<"\nresult is:"<<res2;
+        if(res1>res2)
+        {
+            cout<<"\naddition result is greater";
+        }
+        else
+        {
+            cout<<"\nmultiplication result is greater";
+        }
+    }
+};
+int main()
+{
+    Check c1;
+    c1.display();
+
+}
+

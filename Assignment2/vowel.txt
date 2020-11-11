@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class Vowel
+{
+    char vowel;
+    public : void display()
+    {
+        cout<<"enter a letter:";
+        cin>>vowel;
+        if(vowel=='a' || vowel=='e' || vowel=='i' || vowel=='o' || vowel=='u' )
+        {
+            cout<<"the enter letter is vowel";
+
+        }
+        else
+        {
+            cout<<"the enter letter is not a vowel";
+        }
+
+    }
+};
+int main()
+{
+    Vowel v1;
+    v1.display();
+}

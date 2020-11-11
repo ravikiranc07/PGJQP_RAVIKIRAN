@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class Inequality
+{
+    int num1,num2;
+    public : void display()
+    {
+        cout<<"enter two numbers";
+        cin>>num1>>num2;
+        if(num1!=num2)
+        {
+            cout<<"the numbers are not equal";
+        }
+
+    }
+};
+int main()
+{
+    Inequality i1;
+    i1.display();
+}

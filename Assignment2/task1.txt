@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class Addition
+{
+    int num1,num2;
+    public : int display()
+    {
+        cout<<"enter two numbers";
+        cin>>num1>>num2;
+        int num3=num1+num2;
+        return num3;
+
+
+    }
+};
+int main()
+{
+    Addition a1;
+    int b=a1.display();
+    cout<<"Result is:"<<b;
+}
+

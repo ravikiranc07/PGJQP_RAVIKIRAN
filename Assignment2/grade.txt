@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+class Grade
+{
+    int score;
+    public : void display()
+    {
+        cout<<"enter the marks scored";
+        cin>>score;
+        if(score>=90)
+        {
+            cout<<"\nGrade A";
+        }
+        else if(score>=80 && score<90)
+        {
+            cout<<"\nGrade B";
+        }
+        else if(score>=60 && score<80)
+        {
+            cout<<"\nGrade C";
+        }
+        else if(score>=45 && score<60)
+        {
+            cout<<"\nGrade D";
+        }
+        else
+        {
+            cout<<"\nFail";
+        }
+    }
+};
+int main()
+{
+    Grade g1;
+    g1.display();
+}
