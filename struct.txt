@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+struct student
+{
+    int id;
+    char name[20];
+    float percentage;
+    public : void accept()
+    {
+        cout<<"enter the student name:";
+        cin>>name;
+        cout<<"\nenter student id:";
+        cin>>id;
+        cout<<"\nenter student percentage:";
+        cin>>percentage;
+    }
+    void display()
+    {
+        cout<<"the student name is:";
+        cout<<name;
+        cout<<"\nthe student id is:";
+        cout<<id;
+        cout<<"\nthe student percentage is:";
+        cout<<percentage<<"\n";
+    }
+
+};
+int main()
+{
+    student s1,s2,s3;
+    s1.accept();
+    s2.accept();
+    s3.accept();
+    s1.display();
+    s2.display();
+    s3.display();
+}
+
